@@ -15,31 +15,33 @@ const divide = (a, b) => {
 };
 
 const power = (a, b) => {
-  returns (Math.pow(a, b));
+  return (Math.pow(a, b));
 };
 
 const round = a => {
-  // your code here
+  return (Math.round(a));
 };
 
 const roundUp = a => {
-  // your code here
+  return (Math.ceil(a));
 };
 
 const roundDown = a => {
-  // your code here
+  return (Math.floor(a));
 };
 
 const absolute = a => {
-  // your code here
+  return (Math.abs(a));
 };
 
 const quotient = (a, b) => {
-  // your code here
+  const n = (a%b);
+  const newA = (a - n)
+  return (newA / b);
 };
 
 const remainder = (a, b) => {
-  // your code here
+  return (a % b);
 };
 
 module.exports = {
