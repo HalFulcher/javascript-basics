@@ -1,7 +1,6 @@
 const sayHello = string => {
   return "Hello, " + string + "!";
-  
-};
+  };
 
 const uppercase = string => {
   return string.toUpperCase();
